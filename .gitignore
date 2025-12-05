@@ -1,0 +1,25 @@
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+
+# Personal/Private files (uncomment if you don't want to commit these)
+# Renier_CV.pdf
+# Nigparanon_Renier_PKS.zip
+
+# Node modules (if you add any later)
+node_modules/
+package-lock.json
+

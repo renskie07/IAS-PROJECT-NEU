@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminology | Information Assurance and Security 1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fas fa-shield-alt"></i>
+                <span>IAS Portfolio</span>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="topics.html">Topics</a></li>
+                    <li><a href="terminology.html" class="active">Terminology</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="portfolio-header">
+        <div class="container">
+            <h1>Information Security Terminology</h1>
+            <p>Essential terms and definitions in information assurance and security</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <section id="terminology">
+                <div class="terminology-section">
+                    <div class="term-item">
+                        <h3><i class="fas fa-key"></i> Encryption</h3>
+                        <p class="term-definition">
+                            The process of converting plaintext into ciphertext to prevent unauthorized access. Only authorized parties 
+                            with the decryption key can read the original information. Encryption is fundamental to protecting data both 
+                            at rest (stored data) and in transit (data being transmitted over networks). Modern encryption algorithms use 
+                            mathematical functions to transform data in ways that are computationally infeasible to reverse without the key.
+                        </p>
+                    </div>
+
+                    <div class="term-item">
+                        <h3><i class="fas fa-fire"></i> Firewall</h3>
+                        <p class="term-definition">
+                            A network security device that monitors and filters incoming and outgoing network traffic based on an 
+                            organization's previously established security policies. Firewalls act as a barrier between trusted internal 
+                            networks and untrusted external networks (such as the Internet). They can be hardware-based, software-based, 
+                            or a combination of both, and use rules to allow or block traffic based on source, destination, protocol, 
+                            port, and content.
+                        </p>
+                    </div>
+
+                    <div class="term-item">
+                        <h3><i class="fas fa-virus"></i> Malware</h3>
+                        <p class="term-definition">
+                            Malicious software designed to harm, exploit, or otherwise compromise computer systems. Includes viruses, 
+                            worms, trojans, ransomware, and spyware. Malware can be delivered through various vectors including email 
+                            attachments, malicious websites, infected software, or removable media. It may steal sensitive information, 
+                            damage systems, disrupt operations, or provide unauthorized access to attackers.
+                        </p>
+                    </div>
+
+                    <div class="term-item">
+                        <h3><i class="fas fa-user-secret"></i> Social Engineering</h3>
+                        <p class="term-definition">
+                            Psychological manipulation of people into performing actions or divulging confidential information. Common 
+                            techniques include phishing, pretexting, and baiting. Unlike technical attacks that exploit software 
+                            vulnerabilities, social engineering exploits human psychology and trust. Attackers often impersonate trusted 
+                            individuals or organizations to trick victims into revealing passwords, transferring funds, or installing 
+                            malicious software.
+                        </p>
+                    </div>
+
+                    <div class="term-item">
+                        <h3><i class="fas fa-shield-check"></i> Multi-factor Authentication (MFA)</h3>
+                        <p class="term-definition">
+                            An authentication method that requires the user to provide two or more verification factors to gain access 
+                            to a resource such as an application or online account. Factors typically fall into three categories: 
+                            something you know (password), something you have (security token or smartphone), and something you are 
+                            (biometric data like fingerprints). MFA significantly enhances security by adding layers of protection 
+                            beyond just passwords.
+                        </p>
+                    </div>
+
+                    <div class="term-item">
+                        <h3><i class="fas fa-history"></i> Non-repudiation</h3>
+                        <p class="term-definition">
+                            The assurance that someone cannot deny the validity of something. In digital security, it provides proof 
+                            of the origin and integrity of data. Non-repudiation ensures that a party cannot later deny having sent a 
+                            message or performed an action. This is typically achieved through digital signatures, which use cryptographic 
+                            techniques to bind a message to its sender and provide evidence that the message hasn't been altered.
+                        </p>
+                    </div>
+
+                    <div class="term-item">
+                        <h3><i class="fas fa-user-lock"></i> Least Privilege</h3>
+                        <p class="term-definition">
+                            A security principle where users are granted the minimum levels of access – or permissions – needed to 
+                            perform their job functions. This principle limits the potential damage that can result from accidents, 
+                            errors, or malicious actions. By restricting access rights, organizations can reduce the attack surface 
+                            and prevent users from accessing sensitive data or performing unauthorized actions beyond their role 
+                            requirements.
+                        </p>
+                    </div>
+
+                    <div class="term-item">
+                        <h3><i class="fas fa-exclamation-triangle"></i> Zero-day Vulnerability</h3>
+                        <p class="term-definition">
+                            A software vulnerability that is unknown to the vendor or for which no patch is available. Attackers can 
+                            exploit zero-day vulnerabilities before developers can fix them, making them particularly dangerous. The 
+                            term "zero-day" refers to the fact that developers have had zero days to address the vulnerability. These 
+                            vulnerabilities are highly valued by attackers and can cause significant damage before they are discovered 
+                            and patched.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Additional Information Section -->
+            <section class="portfolio-section" style="margin-top: 4rem;">
+                <h2><i class="fas fa-info-circle"></i> Understanding Security Terminology</h2>
+                <div style="font-size: 1.1rem; line-height: 1.8; color: var(--gray-color);">
+                    <p style="margin-bottom: 1.5rem;">
+                        Mastery of information security terminology is essential for effective communication and understanding in the 
+                        field of cybersecurity. These terms form the foundation of security discussions and are used across various 
+                        contexts including policy development, risk assessment, incident response, and security architecture.
+                    </p>
+                    <p style="margin-bottom: 1.5rem;">
+                        Each term represents a critical concept that security professionals must understand to design, implement, and 
+                        maintain effective security programs. As the field continues to evolve, new terminology emerges, but these 
+                        fundamental terms remain central to information assurance and security practices.
+                    </p>
+                    <p>
+                        When studying these terms, consider their practical applications and how they relate to real-world security 
+                        scenarios. Understanding the context and implications of each term will help you make informed security 
+                        decisions and communicate effectively with other professionals in the field.
+                    </p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>IAS Portfolio</h3>
+                    <p>A comprehensive resource covering fundamental concepts in Information Assurance and Security 1. Designed for students and professionals seeking to understand core cybersecurity principles.</p>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="topics.html">Topics</a></li>
+                        <li><a href="terminology.html">Terminology</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Additional Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="https://www.nist.gov/cybersecurity" target="_blank">NIST Cybersecurity Framework</a></li>
+                        <li><a href="https://www.iso.org/isoiec-27001-information-security.html" target="_blank">ISO/IEC 27001</a></li>
+                        <li><a href="https://www.sans.org/security-resources/" target="_blank">SANS Security Resources</a></li>
+                        <li><a href="https://owasp.org/www-project-top-ten/" target="_blank">OWASP Top 10</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>&copy; 2024 Renier Nigparanon | 3BSIT-5 | Information Assurance and Security 1 Portfolio. For educational purposes only.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
