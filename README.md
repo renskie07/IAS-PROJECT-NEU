@@ -1,4 +1,4 @@
-# Information Assurance and Security 1 Portfolio
+# IAS-PROJECT-NEU
 
 A comprehensive portfolio website covering fundamental concepts, principles, and terminology in Information Assurance and Security 1.
 
@@ -45,7 +45,7 @@ This portfolio website consists of multiple pages:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/renskie07/IAS-PROJECT.git
+   git clone https://github.com/renskie07/IAS-PROJECT-NEU.git
    ```
 
 2. Open `index.html` in your web browser
@@ -55,7 +55,7 @@ This portfolio website consists of multiple pages:
 ## File Structure
 
 ```
-IAS-PROJECT/
+IAS-PROJECT-NEU/
 ├── index.html          # Home page
 ├── portfolio.html      # Portfolio/Resume page
 ├── topics.html         # Topics page
@@ -84,4 +84,3 @@ For questions or inquiries, please refer to the portfolio page.
 ---
 
 © 2024 Renier Nigparanon | 3BSIT-5 | Information Assurance and Security 1 Portfolio
-
